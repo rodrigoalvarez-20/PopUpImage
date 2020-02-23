@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "popup-window-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/popupWindow/PopupWindowWebPart.js",
+          "manifest": "./src/webparts/popupWindow/PopupWindowWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PopupWindowWebPartStrings": "lib/webparts/popupWindow/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "PopUpWindow",
+    "id": "9b54f1d6-5a05-4833-842a-ad3fe5c2ed6e",
+    "version": "1.0.2.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/popup-window.sppkg"
+  }
+}
